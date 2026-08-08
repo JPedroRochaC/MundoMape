@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Encontre os principais links da Mundo Mapê em um só lugar."
+    />
+    <meta name="theme-color" content="#f5f0dc" />
+
+    <title>Mundo Mapê | Nossos links</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700&family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="icon" href="assets/logo-mundo-mape.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="decoracao decoracao--esquerda" aria-hidden="true"></div>
+    <div class="decoracao decoracao--direita" aria-hidden="true"></div>
+
+    <header
+      class="capa"
+      role="img"
+      aria-label="Bolsas maternidade personalizadas da Mundo Mapê"
+    ></header>
+
+    <main class="pagina">
+      <section class="perfil" aria-labelledby="titulo-perfil">
+        <picture class="perfil__foto">
+          <source
+            type="image/avif"
+            srcset="
+              assets/foto-perfil-320.avif 320w,
+              assets/foto-perfil-640.avif 640w
+            "
+            sizes="(max-width: 420px) 126px, 148px"
+          />
+          <source
+            type="image/webp"
+            srcset="
+              assets/foto-perfil-320.webp 320w,
+              assets/foto-perfil-640.webp 640w
+            "
+            sizes="(max-width: 420px) 126px, 148px"
+          />
+          <img
+            class="perfil__logo"
+            src="assets/foto-perfil-320.webp"
+            alt="Foto da responsável pela Mundo Mapê"
+            width="160"
+            height="160"
+            decoding="async"
+            fetchpriority="high"
+          />
+        </picture>
+
+        <h1 id="titulo-perfil">Mundo Mapê</h1>
+        <p class="perfil__descricao">
+          <strong>Bolsas maternidade exclusivas</strong>
+          <span>Personalizados com amor e qualidade</span>
+          <span class="perfil__localizacao">
+            <span>Produzido em Fortaleza</span>
+            <span>Enviamos para todo o Brasil e exterior</span>
+          </span>
+        </p>
+
+        <div
+          class="paises"
+          aria-label="Enviamos para Brasil, Portugal, Canadá, Suíça e Estados Unidos"
+        >
+          <span class="bandeira" title="Brasil">
+            <img
+              src="assets/bandeiras/brasil.png"
+              alt="Brasil"
+              width="72"
+              height="72"
+            />
+          </span>
+          <span class="bandeira" title="Portugal">
+            <img
+              src="assets/bandeiras/portugal.png"
+              alt="Portugal"
+              width="72"
+              height="72"
+            />
+          </span>
+          <span class="bandeira" title="Canadá">
+            <img
+              src="assets/bandeiras/canada.png"
+              alt="Canadá"
+              width="72"
+              height="72"
+            />
+          </span>
+          <span class="bandeira" title="Suíça">
+            <img
+              src="assets/bandeiras/suica.png"
+              alt="Suíça"
+              width="72"
+              height="72"
+            />
+          </span>
+          <span class="bandeira" title="Estados Unidos">
+            <img
+              src="assets/bandeiras/estados-unidos.png"
+              alt="Estados Unidos"
+              width="72"
+              height="72"
+            />
+          </span>
+        </div>
+      </section>
+
+      <nav class="redes-sociais" aria-label="Redes sociais da Mundo Mapê">
+        <!-- Substitua os endereços abaixo pelos perfis verdadeiros. -->
+        <a
+          class="rede-social"
+          href="https://www.instagram.com/mundomape"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram da Mundo Mapê"
+        >
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+          <span>Instagram</span>
+        </a>
+
+        <a
+          class="rede-social"
+          href="https://www.tiktok.com/@mundomape"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="TikTok da Mundo Mapê"
+        >
+          <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+          <span>TikTok</span>
+        </a>
+
+        <a
+          class="rede-social"
+          href="https://wa.me/5585998558119?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Mundo%20Map%C3%AA!"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="WhatsApp da Mundo Mapê"
+        >
+          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+          <span>WhatsApp</span>
+        </a>
+      </nav>
+
+      <nav class="links" aria-label="Links da Mundo Mapê">
+        <!-- Substitua os endereços abaixo pelos links verdadeiros. -->
+        <a
+          class="link"
+          href="https://www.instagram.com/mundomape"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="link__icone" aria-hidden="true">
+            <i class="fa-brands fa-instagram"></i>
+          </span>
+          <span class="link__texto">Acompanhe no Instagram</span>
+        </a>
+
+        <a
+          class="link"
+          href="https://wa.me/5585998558119?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Mundo%20Map%C3%AA!"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="link__icone" aria-hidden="true">
+            <i class="fa-brands fa-whatsapp"></i>
+          </span>
+          <span class="link__texto">Fale conosco pelo WhatsApp</span>
+        </a>
+
+        <a
+          class="link link--catalogo"
+          href="https://wa.me/c/558598558119"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="link__icone" aria-hidden="true">
+            <i class="fa-solid fa-book-open"></i>
+          </span>
+          <span class="link__texto">
+            <strong>Veja nosso catálogo</strong>
+            <small>Conheça os produtos da Mundo Mapê</small>
+          </span>
+        </a>
+      </nav>
+
+      <section class="avaliacoes" aria-labelledby="titulo-avaliacoes">
+        <header class="avaliacoes__cabecalho">
+          <span class="avaliacoes__etiqueta">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            Feedbacks reais
+          </span>
+          <h2 id="titulo-avaliacoes">Você nos indicaria?</h2>
+          <p>Estas clientes já responderam que sim.</p>
+        </header>
+
+        <div class="carrossel" aria-label="Primeira fileira de avaliações">
+          <div class="carrossel__faixa">
+            <div class="carrossel__grupo">
+              <article class="avaliacao">
+                <i
+                  class="fa-solid fa-quote-left avaliacao__aspas"
+                  aria-hidden="true"
+                ></i>
+                <blockquote>
+                  “Cada detalhe é feito com todo amor e as bolsas são um sonho.
+                  Confiança total!”
+                </blockquote>
+                <footer>
+                  <strong>@gleide02lima</strong>
+                  <span>Comentário no Instagram</span>
+                </footer>
+              </article>
+
+              <article class="avaliacao">
+                <i
+                  class="fa-solid fa-quote-left avaliacao__aspas"
+                  aria-hidden="true"
+                ></i>
+                <blockquote>
+                  “Profissional nota 1000, material de ótima qualidade e peças
+                  lindíssimas.”
+                </blockquote>
+                <footer>
+                  <strong>@belitta_oliver</strong>
+                  <span>Comentário no Instagram</span>
+                </footer>
+              </article>
+
+              <article class="avaliacao">
+                <i
+                  class="fa-solid fa-quote-left avaliacao__aspas"
+                  aria-hidden="true"
+                ></i>
+                <blockquote>
+                  “Peças diferenciadas, material de excelência e acabamento
+                  perfeito.”
+                </blockquote>
+                <footer>
+                  <strong>@thamyres_divanails</strong>
+                  <span>Comentário no Instagram</span>
+                </footer>
+              </article>
+
+              <article class="avaliacao">
+                <i
+                  class="fa-solid fa-quote-left avaliacao__aspas"
+                  aria-hidden="true"
+                ></i>
+                <blockquote>
+                  “Trabalho de muita qualidade e lindo, atendimento
+                  maravilhoso.”
+                </blockquote>
+                <footer>
+                  <strong>@andreia_costa_39</strong>
+                  <span>Comentário no Instagram</span>
+                </footer>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="carrossel carrossel--reverso"
+          aria-label="Segunda fileira de avaliações"
+        >
+          <div class="carrossel__faixa">
+            <div class="carrossel__grupo">
+              <article class="avaliacao">
+                <i
+                  class="fa-solid fa-quote-left avaliacao__aspas"
+                  aria-hidden="true"
+                ></i>
+                <blockquote>
+                  “São peças impecáveis, confeccionadas com muito amor, carinho
+                  e dedicação.”
+                </blockquote>
+                <footer>
+                  <strong>@dani_joia_rara</strong>
+                  <span>Comentário no Instagram</span>
+                </footer>
+              </article>
+
+              <article class="avaliacao">
+                <i
+                  class="fa-solid fa-quote-left avaliacao__aspas"
+                  aria-hidden="true"
+                ></i>
+                <blockquote>
+                  “Muita admiração por essa empresa! Indico demais.”
+                </blockquote>
+                <footer>
+                  <strong>@maraduartev</strong>
+                  <span>Comentário no Instagram</span>
+                </footer>
+              </article>
+
+              <article class="avaliacao">
+                <i
+                  class="fa-solid fa-quote-left avaliacao__aspas"
+                  aria-hidden="true"
+                ></i>
+                <blockquote>“Demais! Qualidade sem igual.”</blockquote>
+                <footer>
+                  <strong>@dranathysampaio</strong>
+                  <span>Comentário no Instagram</span>
+                </footer>
+              </article>
+
+              <article class="avaliacao">
+                <i
+                  class="fa-solid fa-quote-left avaliacao__aspas"
+                  aria-hidden="true"
+                ></i>
+                <blockquote>
+                  “Tudo lindo e de qualidade incrível. Super indico!”
+                </blockquote>
+                <footer>
+                  <strong>@lidiascakes</strong>
+                  <span>Comentário no Instagram</span>
+                </footer>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <a
+          class="avaliacoes__link"
+          href="https://www.instagram.com/stories/highlights/18042641561587159/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Ver o destaque Vocês da Mundo Mapê no Instagram"
+        >
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+          Veja fotos das nossas clientes
+        </a>
+      </section>
+
+      <button class="compartilhar" id="botao-compartilhar" type="button">
+        <span aria-hidden="true">↗</span>
+        Compartilhar esta página
+      </button>
+
+      <p class="mensagem" id="mensagem" role="status" aria-live="polite"></p>
+
+      <footer class="rodape">
+        <span class="rodape__texto">Desenvolvido por</span>
+        <a
+          class="logo"
+          href="https://www.instagram.com/pedrocha.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram de pedrocha.dev"
+        >
+          ped<span>rocha</span>.dev
+        </a>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
