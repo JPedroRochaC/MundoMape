@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/.vscode": true
+  },
+  "search.exclude": {
+    "**/node_modules": true
+  }
+}

@@ -304,6 +304,55 @@ body {
   border-color: rgba(35, 91, 93, 0.32);
 }
 
+.link--volta-aulas {
+  position: relative;
+  margin-top: 8px;
+  color: var(--cor-superficie);
+  background: linear-gradient(135deg, #b95f18, var(--cor-secundaria));
+  border: 3px solid var(--cor-superficie);
+  box-shadow:
+    0 0 0 2px var(--cor-secundaria),
+    0 14px 30px rgba(185, 95, 24, 0.3);
+  transform: scale(1.025);
+}
+
+.link--volta-aulas .link__icone {
+  color: var(--cor-secundaria-hover);
+  background: var(--cor-superficie);
+}
+
+.link--volta-aulas .link__selo {
+  position: absolute;
+  top: -15px;
+  right: 18px;
+  padding: 4px 12px;
+  color: var(--cor-texto);
+  background: #f8d348;
+  border: 2px solid var(--cor-superficie);
+  border-radius: 5px 12px 5px 12px;
+  box-shadow: 0 4px 10px rgba(35, 91, 93, 0.2);
+  font-family: "Bricolage Grotesque", var(--fonte-principal);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  transform: rotate(5deg);
+}
+
+.link.link--volta-aulas:hover {
+  color: var(--cor-texto);
+  background: linear-gradient(135deg, #f6c65e, #ef9a45);
+  border-color: var(--cor-superficie);
+  box-shadow:
+    0 0 0 3px rgba(248, 211, 72, 0.68),
+    0 17px 34px rgba(185, 95, 24, 0.28);
+  transform: translateY(-3px) scale(1.025);
+}
+
+.link--volta-aulas:focus-visible {
+  outline-offset: 6px;
+}
+
 .link--instagram .link__icone {
   background: var(--cor-texto);
 }
